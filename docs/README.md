@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: LiangSir
+heroText: LiangSir666
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -10,9 +10,9 @@ heroText: LiangSir
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-# bgImageStyle: {
-#   height: '100vh'
-# }
+bgImageStyle: {
+  height: '100vh'
+}
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
