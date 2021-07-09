@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: LiangSir666
+heroText: LiangSir
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
