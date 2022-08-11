@@ -96,15 +96,19 @@ module.exports = {
     // 博客配置
     "type": "blog",
     "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "分类"
+        "category": {
+          "location": 2, // 在导航栏菜单中所占的位置，默认2
+          "text": '分类' // 默认 “分类”
+        },
+        // tag: {
+        //   location: 3, // 在导航栏菜单中所占的位置，默认3
+        //   text: '标签' // 默认 “标签”
+        // },
+        "socialLinks": [
+          { icon: 'reco-github', link: 'https://github.com/To2rk' },
+          { icon: 'reco-wechat', link: '/view/about-me/about-me.md' },
+        ]
       },
-      "tag": {
-        "location": 3,
-        "text": "标签"
-      }
-    },
     "friendLink": [
       {
         "title": "午后南杂",
@@ -123,7 +127,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "LiangSir",
+    "author": "梁腾蛟",
     "authorAvatar": "/tx.jpg",
     "record": "xxxx",
     "startYear": "2017"
